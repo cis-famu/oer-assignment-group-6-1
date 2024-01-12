@@ -35,3 +35,17 @@ techniques to resolve issues and ensure smooth program execution.
 Through hands-on experience, readers will write their own basic C++ program, solidifying their understanding and 
 empowering them to tackle more advanced programming challenges confidently. This chapter equips learners with 
 essential skills and knowledge to harness the full potential of C++ programming and embark on a rewarding coding journey.
+
+## Basic elements
+
+As aspiring programmers embark on their journey to learn C++, they encounter several foundational elements that form the
+building blocks of this powerful and versatile programming language. This section explores four fundamental components of 
+C++: coments, reserved words, identifiers and functions.
+
+Functions are essential elements of C++ that enable programmers to encapsulate blocks of code and excute them when needed. 
+They facilitate modular programming, where code is organized into smaller, reusable components, enhancing code readability
+and maintainability. Functions can accept arguements, perform specific tasks, and return values to the caller. Understanding 
+comments, reserved words, identifiers and functions empower developers to write clean, efficient, and well-structured C++ code
+as a solid foundation for creating sophisticated applications and software solutions. As programmers master these basic elements of
+C++, they lay a solid groundwork for exploring the language's more advanced features and tackling complex programming challenges.
+We will go into more detail on this topic in a later chapter.
