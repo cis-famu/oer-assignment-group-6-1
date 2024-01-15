@@ -114,7 +114,7 @@ include:
 1. Valid Characters: Identifiers in C++ can include letters (both uppercase and lowercase), digits, and underscores (_). The initial
 character must be a letter or an underscore. C++ is case-sensitive, meaning that identifiers like "myVariable" and "MyVariable" are 
 distinct. 
-2. Reserved Keywords: Certain words are reserved in C++ and cannot be used identifiers because they have predefined meanings in the 
+2. Reserved Keywords: Certain words are reserved in C++ and cannot be used as identifiers because they have predefined meanings in the 
 language. Examples of such keywords include "if", "else", "while", "class", "int", and "return". 
 3. Length Limitation: Identifiers can be of any length, but typically only the first few characters are significant. Many compilers 
 impose a limit on the length of the identifier, often restricting it to 255 characters. 
@@ -126,3 +126,17 @@ good practice to employ unique prefixes or namespaces for global identifiers.
 7. Underscore Convention: Identifiers that start with an underscore followed by a capital letter (e.g., "_MyIdentifier") and 
 identifiers containing two consecutive underscores are reserved for the compiler and standard library. It is recommended to avoid 
 using such names to prevent unintended behavior.  
+
+
+| Valid Identifier Names | Invalid Identifier Names |
+|-----------------------|-------------------------|
+| age                   | 123num                  |
+| userName              | float                  |
+| _count                / for                    /
+/ MyVariable            / break                  /
+/ MAX_SIZE              / while                  /
+/ isValid               / if                     /
+/ _value1               / 1_value                 /
+/ TotalSales            / double                 /
+/ num_students          / my-variable            /
+/ PI                    / 3.14                   /
