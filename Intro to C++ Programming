@@ -49,3 +49,80 @@ comments, reserved words, identifiers and functions empower developers to write 
 as a solid foundation for creating sophisticated applications and software solutions. As programmers master these basic elements of
 C++, they lay a solid groundwork for exploring the language's more advanced features and tackling complex programming challenges.
 We will go into more detail on this topic in a later chapter.
+
+### Comments 
+Comments are essential in programming languages as they allow programmers to add notes to their code. These lines of text,
+which are not executed, serve as annotations for human readers, and are disregarded by the compiler during the compilation process. 
+Comments act as documentation, providing expectations or reminders about the code's logic. This practice enhances the developers' 
+ability to comprehend, collaborate on, and upkeep projects.
+
+In C++, there are two styles of comments. The first one is the in-line comment, denoted by `//` (two forward slashes). Any text 
+following these slashes are considered part of the comment. 
+
+For example:
+
+```cpp
+int name; //student name 
+tax = cost * 0.12; // tax amount on cost
+
+
+The second type of permitted comment in C++ is the multiple-line comment. This allows programmers to write more extensive comments 
+spanning multiple lines. Multiple-line comments are enclosed between /* and */, indicating the beginning and end of the comment
+block. 
+
+For example: 
+
+```cpp
+/*
+    Comments can be written 
+    on multiple lines as needed. 
+*/
+```
+### Reserved Words (Keywords)
+
+Reserved words, also referred to as keywords, are particular words with predetermined meanings in the C++ language. These words act 
+as fundamental elements for constructing instructions, expressions, and program structures. Due to their reserved status for specific 
+purposes, programmers are not allowed to utilize them as identifiers (such as variable names or function names) in their code. A 
+comprehensive understanding of these reserved words is crucial, as they establish the foundation of C++ syntax and delineate the 
+language's grammar. 
+
+For example: 
+
+```cpp
+    int, float, double, bool, if, else, do, while
+return, const
+```
+*Note: Reserved words are typically highlighted in 
+a distinct color by the IDE. 
+
+### Identifiers
+
+Within the realm of programming, identifiers assume a vital role in defining and accessing various entities in a codebase. In C++
+an identifier serves as a name assigned to a program element, encompassing variables, functions, classes, objects, labels, and user-
+defined types. These names function as labels, providing programmers with the means to reference and manipulate these entities within 
+their code. 
+
+The objective of this section is to offer a thorough comprehension of identifiers in C++, encompassing their rules, best practices, 
+and their contribution to the overall structure and readability of a C++ program. 
+
+#### Rules for Naming Identifiers 
+
+C++ enforces specific rules and conventions for naming identifiers to uphold code clarity and prevent conflicts. Adhering to these 
+rules is crucial to ensure code readability and portability across various platforms and compilers. The rules for naming C++ identifiers 
+include: 
+
+1. Valid Characters: Identifiers in C++ can include letters (both uppercase and lowercase), digits, and underscores (_). The initial
+character must be a letter or an underscore. C++ is case-sensitive, meaning that identifiers like "myVariable" and "MyVariable" are 
+distinct. 
+2. Reserved Keywords: Certain words are reserved in C++ and cannot be used identifiers because they have predefined meanings in the 
+language. Examples of such keywords include "if", "else", "while", "class", "int", and "return". 
+3. Length Limitation: Identifiers can be of any length, but typically only the first few characters are significant. Many compilers 
+impose a limit on the length of the identifier, often restricting it to 255 characters. 
+4. Unicode Support: C++ supports Unicode characters in identifiers, providing a broader range of naming possibilities. 
+5. Namespace Scope: Identifiers within a namespace scope should have unique names to avoid naming conflicts. It is advisable to use 
+descriptive names that reflect the content or purpose of the entity. 
+6. Global Scope: Care should be taken when using identifiers in the global scope to prevent name clashes in large projects. It's a 
+good practice to employ unique prefixes or namespaces for global identifiers. 
+7. Underscore Convention: Identifiers that start with an underscore followed by a capital letter (e.g., "_MyIdentifier") and 
+identifiers containing two consecutive underscores are reserved for the compiler and standard library. It is recommended to avoid 
+using such names to prevent unintended behavior.  
