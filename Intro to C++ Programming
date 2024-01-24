@@ -166,3 +166,31 @@ entities. By adhering to the rules and best practices for naming identifiers, de
 maintainable codes that are less prone to errors and easier to collaborate on within a team. Taking the time to choose
 descriptive and relevant names for identifiers will be very affective in making your codebase stronger and more
 comprehensible.
+
+### Review Questions 
+
+1. True/False: Functions in C++ are used primarily to enhance code readavility and maintainability by organizing code into smaller, reusable compinents.
+
+2. Which of the following elements are explored as foundational components of C++ in this section?
+
+    a) Loops, pointers, arrays, and classes 
+    b) Reserved words, identifiers, functions, and comments
+    c) Variables, conditionals, constants, libraries
+    d) Polymorphism, inheritance, abstraction, and encapsulation
+
+3. Functions in C++ can aceept _______, perform slecific tasks, and return values to the caller.
+
+*Answers: 1. True 2. B 3.arguments*
+
+## Data Types
+
+In C++, data types are fundamental building blocks, that define, the type of data a variable can hold. They play a crucial role in determining the size and behavior of variables during program execution. Understanding basic data types in C++ is essential for writing efficient, platform-independent, and error-free code. 
+
+This section provides an in-depth exploration of the basic data types available in C++, their memory representation, and the range of values they can hold.
+
+### Built-in Data Types
+
+C++ provides several built-in or fundamental data types that cam be broadky catergorized into following groups:
+
+1. Integer Types: 
+
