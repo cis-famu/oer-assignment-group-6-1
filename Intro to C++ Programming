@@ -198,4 +198,54 @@ C++ provides several built-in or fundamental data types that cam be broadky cate
     - 'long': Represents long signed intergers and uses 4 bytes (or 8 bytes on some systems). The range is platform-dependent but is thpically larger than that of 'int'.
     - 'long long': Represents very long signed intergers and uses 8 bytes. Intriduced in C++ 11, it provides a larger range than 'long'.
 2. Floating-Point Types:
-    - 'float
+    - 'float': Represents single-precision floating point numbers usjign 4 bytes. It has approximately 7 decimal digits of precision.
+    - 'double': Represents double-precision floating point numbers using 8 bytes. It has approximately 15 decimal digits of precision.
+    - 'long double': Represents extended-precison floating point numbers, which provide even higher precision than 'double'.
+3. Charcter Types:
+    - 'char': Represents a single character and uses 1 byte. It can hold ASCII characters or small integer values.
+4. Boolean Type: 
+    - 'bool': Represents a Boolean value, which can be either 'true' or 'false'. It uses 1 byte internally to store the value.
+
+### Strings
+
+Within C++, strings are the fundamental data type used to store sequences, some being: words, sentences and paragraphs. String variables are crucial to have when handling text data, they allow developers to have and work with human-readable information within their programs.
+
+
+To work with strings in C++, you must include the '<string>' header. String variables can be declared and initialized using different methods. For example:
+
+'''cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main () {
+    //Method 1: Using string literals
+    string name: = "John";
+
+    //Method 2: Using the constructor 
+    string message("Hello, C++!");
+
+    //Method 3: Using assignment 
+    string fruit;
+    fruit = "apple";
+
+    return 0;
+}
+'''
+Above is  a demonstration three methods to declared and initialize string variables.
+
+### Review Questions
+
+1. Multiple Choice: Which of the following is NOT a basic data type in C++?
+    a) int
+    b) float
+    c) string
+    d) double
+
+2. Completion: This data type in C++ is used to store single characters, such as 'A', '5', or '&'. ________
+3. True/False: The "bool" data type in C++ is used to represent bollean values and can have two possible states: true or false.
+
+*Answers: 1. c 2. char 3. true*
+
+## Varibale Declaration and Initilizations
+
