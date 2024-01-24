@@ -311,4 +311,7 @@ char letter{};    // Initializes 'letter' to '\0' (null character)
 
 ### Importance of Initialization
 
+Reasons proper initialization of variables is needed:
+
+1. Preventing Undefined Behavior: Without an initialized variable, programs crash unexpectedly or provide the incorrect results.
 
