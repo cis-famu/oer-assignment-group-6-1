@@ -140,3 +140,29 @@ using such names to prevent unintended behavior.
 / TotalSales            / double                 /
 / num_students          / my-variable            /
 / PI                    / 3.14                   /
+
+
+## Best Practices for Naming Identifiers
+
+While following the rules is necessary, learning certain best practices for naming identifiers can significantly improve the
+maintainability and comprehensibility of C++ code.
+1. Descriptive Names: Choose meaningful and descriptive names for variables, functions, and classes. The name
+should be relevant to the purpose or content of the entity. For instance, use “numStudents” instead of “n” to represent the
+number of students.
+2. CamelCase: For multi-word identifiers, use the CamelCase method, where the first letter of each word is
+capitalized (e.g., “calculateGrossSalary”).
+3. Avoid Abbreviations: Limit the use of abbreviations because they can be confusing and unclear to other programmers. 
+ Prioritize readability over brevity.
+4. Consistency: Stick to a certain naming style throughout the codebase. Consistency simplifies code reviews and
+makes it easier for developers to understand the code written by others.
+5. Avoid Hungarian Notation: In the past, Hungarian Notation was a commonly used naming method, but it is not commonly used anymore. 
+Avoid using prefixes that stand for the data type of a variable, such as “i” for integers or “sz” for zero-terminated
+strings.
+6. Use Function Names as Actions: When naming functions, use verbs to indicate actions, such as “calculate,”
+“initialize,” or “print.”
+
+Identifiers are the building blocks of a C++ program, allowing programmers to create, reference, and manipulate various
+entities. By adhering to the rules and best practices for naming identifiers, developers can write clean, readable, and
+maintainable codes that are less prone to errors and easier to collaborate on within a team. Taking the time to choose
+descriptive and relevant names for identifiers will be very affective in making your codebase stronger and more
+comprehensible.
