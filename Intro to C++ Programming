@@ -193,4 +193,9 @@ This section provides an in-depth exploration of the basic data types available 
 C++ provides several built-in or fundamental data types that cam be broadky catergorized into following groups:
 
 1. Integer Types: 
-
+    - 'int': Represents signed intergers and typically uses 4 bytes on most sytsems. The range of values is approximately -2 billion to +2 billion.
+    - 'short': Represent short signed intergers and uses 2 bytes. The range is usually -32,768 to +32,767.
+    - 'long': Represents long signed intergers and uses 4 bytes (or 8 bytes on some systems). The range is platform-dependent but is thpically larger than that of 'int'.
+    - 'long long': Represents very long signed intergers and uses 8 bytes. Intriduced in C++ 11, it provides a larger range than 'long'.
+2. Floating-Point Types:
+    - 'float
