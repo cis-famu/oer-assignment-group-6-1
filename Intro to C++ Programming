@@ -315,3 +315,91 @@ Reasons proper initialization of variables is needed:
 
 1. Preventing Undefined Behavior: Without an initialized variable, programs crash unexpectedly or provide the incorrect results.
 2. Deterministic Behavior: 
+
+
+
+
+
+### Review Questions
+
+1. Variable declaration refers to:
+a) Assigning a value to a variable
+b) Creating a new variable with a name and data type
+c) Changing the value of an existing variable
+d) Printing the value of a variable to the console
+
+2. True/False: It is mandatory to initialize a variable at the time of declaration.
+
+3. When declaring and initializing a variable, the value assigned to the variable must be of the same data type
+as the variable itself. For example, to declare and initialize an integer variable “bet,” which of the following statements
+is correct?
+a) int bet = “25”;
+b) int bet = ‘25’;
+c) int bet = 25;
+d) int bet = 25.0;
+Answers: 1. b 2. false 3. c
+
+
+## Assignment Statements
+
+Assignment statements are fundamental to programming in C++. They allow programmers to assign values to variables, modify existing values, 
+and update the state of a program during its execution.
+Knowing how to use assignment statements effectively is important for manipulating data and controlling program flow.
+This section explores the syntax of assignment statements in C++, their usage for different data types, and common errors
+to avoid.
+
+
+## Basic Syntax of Assignment Statements
+
+The assignment operator " = " is used to assign a value to a variable. The general syntax of an assignment statement
+is as follows:
+variable_name = value;
+For example:
+int age = 30;
+double pi = 3.14159;
+char grade = 'A';
+The value on the right side of the assignment operator is assigned to the variable on the left side.
+
+
+## Modifying Variables with Assignment
+
+Assignment statements aren't limited to initializing variables. They can be used to modify the values of existing
+variables. For example:
+int count = 5;
+count = count + 1; // Incrementing 'count' by 1
+This code snippet increments the value of the count variable by 1 using the assignment statement. Similarly, various
+mathematical and logical operations can be performed on variables using the assignment operator.
+
+
+## Assignment with Expressions
+
+C++ allows more complex expressions on the right-hand side of the assignment operator. These expressions can involve
+multiple variables, constants, and arithmetic or logical operators. For example:
+int a = 4, b = 1, c = 3;
+a = b + c; // Assigning the sum of 'b' and 'c' to 'a'
+In this example, the value of b + c is calculated and assigned to the variable a.
+
+
+## Chained Assignment
+
+C++ supports chained assignment, which allows multiple variables to be assigned to the same value in one statement:
+int a, b, c;
+a = b = c = 10; // All variables are assigned the value 10
+Here, c is assigned the value 10 first, and then that value is assigned to b, and finally, the same value is assigned to a.
+
+
+### Review Questions
+
+ 1. Multiple Choice: Which symbol is used to assign a value to a variable in an assignment statement?
+a) ==
+b) =
+c) :
+d) ->
+
+2. Write the correct assignment statement to assign the value 7 to a variable named “count.” __________
+
+3. True/False: The left side of an assignment statement must always be a variable.
+
+Answers: 1. b 2. count = 7 3. true
+
+
