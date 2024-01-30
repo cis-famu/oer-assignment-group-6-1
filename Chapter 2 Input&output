@@ -1,0 +1,14 @@
+# Input/Output
+
+##Objectives
+
+After completeing this chapter students will be able to:
+
+1. Identify input and output streams
+2. Read data from the standard input device
+3. Describe input stream functions get, ignore, putback, and peek
+4. Write data to the standard output device
+5. Use manipulators in a program to format output
+6. Perform input and output operations using the string data type
+7. Read data from a file (include examples)
+8. Write data to a file (include examples)
