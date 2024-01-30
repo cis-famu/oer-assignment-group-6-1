@@ -12,3 +12,15 @@ After completeing this chapter students will be able to:
 6. Perform input and output operations using the string data type
 7. Read data from a file (include examples)
 8. Write data to a file (include examples)
+
+## Introduction
+
+In chapter 2 you were introduced to some of the C++ input/output (I/O) instructions,
+which get data into a program and print the results on the screen. You used c i n 
+and the extraction operator >> to get data from the keyboard, and c o u t and the 
+insertion operator << to send output to the screen. Because I/O operations are fundamental
+to any programming language, in this chapter, you will learn about C++ I/O operations in
+more detail. First, you will learn about statements that extract input from the standard input
+device. You will then learn how to format output using manipulators. In addition, you
+will learn about te limitations of the I/O operations associated with the standard I/O
+devices ad learn how to extend these operations to other devices.
