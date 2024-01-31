@@ -24,3 +24,19 @@ more detail. First, you will learn about statements that extract input from the 
 device. You will then learn how to format output using manipulators. In addition, you
 will learn about te limitations of the I/O operations associated with the standard I/O
 devices ad learn how to extend these operations to other devices.
+
+## Indentify input and output streams 
+
+Typically the standard input device is a keyboard, with the output being the screen of a computer. 
+To send and output to the screen of a computer, programmers must use the header iostream. This 
+header contains the two data types: istream (input stream) and ostream (output stream). This header
+also contains two variables, those being: cin(see-in) for common input and cout (see-out) for common 
+output. To use these variables one must use the preprocessor directive.
+*Note: cin and cout are defined and have meanings, you should never redefine them in a program*
+
+
+
+Definitions:
+Input Stream: A sequence of characters from an input device to the computer
+Output stream: A sequences of characters from the computer to an output device
+
