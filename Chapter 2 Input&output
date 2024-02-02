@@ -149,3 +149,36 @@ use the manipulator showpoint.
 
 cout << showpoint;
 
+## Perform input and output operations using the string data type
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	int age;
+
+	cout << "Enter your age:";
+	cin >> age;
+	cout << "\nYour age is: " << age;
+
+	return 0;
+}
+
+Input: 19 
+Output: Your age is: 19 
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	char sample[] = "Char";
+
+	cout << sample << " - One printable number except the blank";
+
+	return 0;
+}
+
+Output: Char - One printable number except the blank
