@@ -63,3 +63,18 @@ This line of code is no different than:
 cin >> payRate;
 cin >> hoursWorked;
 '''
+
+### Variables to note
+
+When reading data into a "char" variable, after looking over the white space characters the >> finds a stores
+the next single character. To read data into the variable "int" and "double", after skipping the whitespace characters
+and reading + or -, the >> reads the numbers including the decimal point for floating point variables, this stops
+when it finds another white space character or another character thats not a di
+
+*Note: when entering character data like letters, you don't enter the single quotes around the character*
+
+If an input stream has more data items then required, any of the values left in the input stream are disregard. When 
+entering data to be processed, programers must remember that the data values should correspond with the data types of
+the variables in the input statment. 
+*Note: computers dont tolerate any kind of mismatch, like entering a "char" value into an "int" or "double" variabble causes 
+and input failure*
