@@ -78,3 +78,74 @@ entering data to be processed, programers must remember that the data values sho
 the variables in the input statment. 
 *Note: computers dont tolerate any kind of mismatch, like entering a "char" value into an "int" or "double" variabble causes 
 and input failure*
+
+## Describe Input Stream Functions get, ignore, putback, and peek
+
+get: 
+The variable cin has access to the stream function get, which is used to read character data. The get function inputs the 
+very next character, including whitespace characters, from the input stream and stores it in the memory location indicated 
+by its argument.
+
+cin.get(varChar);
+In the cin.get statement, varChar is a char variable. varChar, which is in parentheses following the function name, is called 
+the argument or the parameter of the function. The effect of the preceding statement would be to store the next input character in the variable 
+varChar.
+
+ignore:
+When you want to process only partial data (say, within a line), you can use the stream function ignore to discard a portion of the input.
+
+Suppose intExp yields a value of, say 100. This statement says to ignore the next 100 characters or ignore the input until it encounters the 
+character specified by chExp, whichever comes first. Consider the following statement:
+
+cin.ignore(100, '\n');
+When this statement executes, it ignores either the next 100 characters or all characters until the newline character is found, whichever comes first. 
+For example, if the next 125 characters do not contain the newline character, then only the first 100 characters are discarded and the next 
+input data is the character 101. However, if the 70th character is the newline character, then the first 70 characters are discarded and the next 
+input data is the 71st character.
+
+putback:
+The stream function putback lets you put the last character extracted from the input stream by the get function back into the input stream.
+
+cin.putback(ch);
+
+peek:
+The stream function peek looks into the input stream and tells you what the next character is without removing it from the input stream.
+
+ch = cin.peek();
+
+### Use Maniputlators in a Program to Format Output
+
+cout << expression or manipulator << expression or manipulator...;
+
+To use the manipulators, the program must include the header file iomanip. The following include statement is required:
+
+#include <iomanip>
+
+setPrecision(n):
+Use the manipulator setprecision to control the output of floating-point numbers.
+
+cout << setPrecision(2);
+
+fixed:
+To output floating-point numbers in a fixed decimal format, use the manipulator fixed. The following statement sets the output of 
+floating-point numbers in a fixed decimal format on the standard output device:
+
+cout << fixed;
+All floating-point numbers are displayed in the fixed decimal format until the manipulator fixed is disabled. You can disable this manipulator 
+by using the stream member function unsetf.
+
+cout.unsetf(ios::fixed);
+The output of the floating-point numbers returns to their default settings.
+
+scientific:
+scientific is used to output floating-point numbers in scientific notation format.
+
+cout << scientific;
+
+showpoint:
+Suppose that the decimal of a decimal number is zero. When you tell the computer to output the decimal number in a 
+fixed decimal format, the output may not show the decimal point and the decimal part. To make the output show the decimal point and trailing zeros, 
+use the manipulator showpoint.
+
+cout << showpoint;
+
