@@ -11,3 +11,10 @@ When compeleted, students will be able to:
 7. Demonstrate a switch statement in a program 
 8. Indentify how to avoid bugs
 9. Use the assert function to terminate a program
+
+## Introduction 
+
+In previous chapters progams were defined as a sequence of statements which had the goal of 
+accomplishing tasks. All very simple and straight forward. Within this chapter as well as chapter 5,
+you will be taught how to tel a computer that it doesn't have to follow a simple statement, and that
+it can also make its own decisions and repeat statements until certain conditions are met.
