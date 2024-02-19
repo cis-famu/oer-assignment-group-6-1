@@ -18,3 +18,16 @@ In previous chapters progams were defined as a sequence of statements which had 
 accomplishing tasks. All very simple and straight forward. Within this chapter as well as chapter 5,
 you will be taught how to tel a computer that it doesn't have to follow a simple statement, and that
 it can also make its own decisions and repeat statements until certain conditions are met.
+
+### Indentify and Use control structures
+
+There are three ways a computer can process a program: in sequence, selectively, and by making a 
+choice, this can also be called a branch; repeatively, by excuting a statement over and over using a 
+loop or calling a function. With sequential programs computers start at the beginning  and follow the 
+statements in order all the way to the end without making any choices. Control structures provide 
+another option to sequection program execution and are used to alter the sequential flow of execution 
+The two most commoncontorl structures are selection and repetition. 
+Selection: program executes particular statements depedning on some conditions. 
+Repition: The program repeats particular statements a certain mnumber of times based on some condition.
+
+### Indentify logical and relational operators, how they work, and order of precedence 
