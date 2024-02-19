@@ -31,3 +31,11 @@ Selection: program executes particular statements depedning on some conditions.
 Repition: The program repeats particular statements a certain mnumber of times based on some condition.
 
 ### Indentify logical and relational operators, how they work, and order of precedence 
+
+Logical expression: An expression that evaluates to true or fasle
+Example: 
+    "8 is greater than 3"  is true, the expression 8>3 is a logical expression.
+*Note: > is an operater*
+
+
+
