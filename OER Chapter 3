@@ -1,0 +1,13 @@
+# Control Structures I (Selection)
+
+## Objectives 
+When compeleted, students will be able to:
+1. Indentify and use control structures
+2. Indentify Logical and relational operstors, how they work, and order of precedence
+3. Distinguish the relationship of relational operators and simple data types
+4. Indentify how to form and evaluate logical (Boolean) expressions
+5. Use one-way and/or two-way selection syntax
+6. Utilize pseudocode to develope, test, and debug a progam
+7. Demonstrate a switch statement in a program 
+8. Indentify how to avoid bugs
+9. Use the assert function to terminate a program
