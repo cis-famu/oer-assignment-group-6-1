@@ -37,5 +37,20 @@ Example:
     "8 is greater than 3"  is true, the expression 8>3 is a logical expression.
 *Note: > is an operater*
 
+### Distinguish the relational operators and simple data types
 
+You can use the relational operators with all three simple data types.
+Example: 8 > 15...false
+         6 != 6...false
+         5.9 <= 7.5...true
+         R > T...false (According to the ASCII values of both characters)
 
+### Identify how to form and evaluate logical (Boolean) expressions
+
+Logical expressions evaluate to either 1 or 0, meaning the value of logical expressions are stored in a variable of 
+the data type int . Therefore, you can use the int data type to manipulate logical (Boolean) expressions.
+
+int legalAge;
+int age;
+legalAge = 21;
+legalAge = (age >= 21); This would give a value of 1 which means true.
