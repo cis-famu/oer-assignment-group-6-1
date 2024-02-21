@@ -57,3 +57,16 @@ legalAge = (age >= 21); This would give a value of 1 which means true.
 
 You can also use the bool data type. Which would be the same outcomes as using the int data type.
 
+ ### Use one-way and/or two-way selection syntax
+
+One-way and two-way selection syntax are commonly used in programming to control the flow of execution based on
+certain conditions. One-way selection, also known as an "if statement," allows the program to execute a block of c
+ode if a specified condition is true. Two-way selection, often implemented using "if-else" statements, allows the program 
+to execute one block of code if the condition is true and another block if the condition is false.
+
+
+### Utilize pseducode to develop, test, or two way selection syntax
+
+ you can debug the program by checking each step of the implementation against the pseudocode to identify
+where the issue might be. Common debugging techniques include printing the values of variables, tracing the flow 
+of execution, and using debugging tools provided by your programming environment.
