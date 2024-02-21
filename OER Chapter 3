@@ -54,3 +54,6 @@ int legalAge;
 int age;
 legalAge = 21;
 legalAge = (age >= 21); This would give a value of 1 which means true.
+
+You can also use the bool data type. Which would be the same outcomes as using the int data type.
+
