@@ -70,3 +70,15 @@ to execute one block of code if the condition is true and another block if the c
  you can debug the program by checking each step of the implementation against the pseudocode to identify
 where the issue might be. Common debugging techniques include printing the values of variables, tracing the flow 
 of execution, and using debugging tools provided by your programming environment.
+
+### Demonstrate a switch statements in a program
+
+The first structures that were implemented with if and if...else statements, these usally require the evaluation of a
+expression. The second selection structure is a switch sturcture, these do not require a expression. Switches
+structure givs the computer power to choose from among many alternatives. The switch expression are a variable identifier,
+complex expression, and also can evaluate to a logical value. Nested switch statements are used to incorporate multilevel
+selections. Switch statements are looked as a elegant way to implemnet multiple selections.
+
+### Identify how to avoid bugs
+
+
