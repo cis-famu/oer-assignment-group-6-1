@@ -81,4 +81,8 @@ selections. Switch statements are looked as a elegant way to implemnet multiple 
 
 ### Identify how to avoid bugs
 
-
+Most bugs are a result of only partial understanding of how switch structure works. A switch statement does not include any
+break statement, therefore execution continues with the statements associated with the next case label, this typically results
+in an extra four lines being printed. To get the correct result the switch structure must include a break statement after the 
+last cout. Partially understood concepts can cause greats amounts of errors in a program, therefore taking time to actually 
+understandeach concepted and technique will save you the time debugging.
