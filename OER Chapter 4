@@ -1,5 +1,22 @@
-# Control Stuructures II (Repetition) 
+# Control Structures II (Repetition) 
 
 ## Objectives 
 When completed, students will be able to:
-1. 
+1. Explain the core concept of repetition in programming 
+2. Identify real-world scenarios when repetition control structures streamline code 
+3. Compare the efficiency of code written with and without repetition stuructures 
+4. Construct basic while loops with correct initialization, condition checking, and updates
+5. Differentiate between for loops, do-while loops, and EOF-controlled loops, using examples
+6. Modify loops to iterate a specific number of times or until a user-defined condition is met.
+7. Write 'if' statements to implement decision-making within loops.
+8. Incorporate 'else' and 'else if' statements to create multi-branch conditional logic.
+9. Apply nested 'if' statements to handle complex decision scenarios within loops.
+10. Demonstrate the use of 'break' to prematurely exit a loop.
+11. Apply 'continue' to skip the remaining portion of a loop iteration and advance to the next.
+12. Design scenarios where the strategic use of 'break' and 'continue' enhances code readability and efficiency.
+13. Create nested loops to solve problems requiring multiple levels of iteration.
+14. Control the execution flow of nested loops effectively to achieve the desired outcome.
+15. Debug nested loops with multi-dimensional iteration patterns.
+16. Identify common logical errors arising in repetition control structures.
+17. Utilize debugging tools to trace code execution and locate the source of errors within loops.
+18. Develop preventive coding practices to minimize logic errors in loops.
