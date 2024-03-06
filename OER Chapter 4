@@ -4,7 +4,7 @@
 When completed, students will be able to:
 1. Explain the core concept of repetition in programming 
 2. Identify real-world scenarios when repetition control structures streamline code 
-3. Compare the efficiency of code written with and without repetition stuructures 
+3. Compare the efficiency of code written with and without repetition structures 
 4. Construct basic while loops with correct initialization, condition checking, and updates
 5. Differentiate between for loops, do-while loops, and EOF-controlled loops, using examples
 6. Modify loops to iterate a specific number of times or until a user-defined condition is met.
@@ -20,3 +20,6 @@ When completed, students will be able to:
 16. Identify common logical errors arising in repetition control structures.
 17. Utilize debugging tools to trace code execution and locate the source of errors within loops.
 18. Develop preventive coding practices to minimize logic errors in loops.
+
+## Introduction
+
