@@ -50,4 +50,25 @@ How for loops execute:
              - executes update statement 
 3. repeat until loop condition is proven false
 *Note: the initial statement in the for loop is the first statement to execute; it executes only once*
-The statements of for loops can either be simple or compound just like the while loop
+The statements of for loops can either be simple or compound just like the while loop.
+
+## do...while Looping (Repetition) Structure
+
+Example: do 
+            statement 
+         while (expression);
+Just like the other statement do...while can also be simple or compound, if by chance it is a compound enclose it between braces. With do...while, the statement executes first,
+and then the expression is evaluated. If evaluated as true the statement will execute again. Infinite loops can be avoided by making sure the loop bod contains a statement that 
+makes the expression false and assures that it exits properly. The do...while loop is the only loop in this section that evaluates the expression after executing the statement, 
+this makes it a posttest loop. This loop also has a exit condition, meaning it will always execute the statement at least once. A do...while loop can as well be used as a input 
+validation.
+Example: 
+int score;
+
+do
+{
+            cout<<"Enter a score between 0 and 50: ";
+            cin>>score;
+            cout<<endl;
+}
+while (score < 0 || score > 50);
