@@ -38,3 +38,16 @@ worked better with numbers.
 
 ## for Looping (Repetition) Structure 
 
+The for loop is a specialized form of the while loop with the primary purpose being to simplify the writing of counter controlled loops, this loop is also called a 
+counted or index for loop.
+Example: for (initial statement; loop condition; update statement)
+            statement
+What controls the stament of the for staement is the initial statement, loop condition, and update statement.
+How for loops execute:
+1. initial statement executes
+2. the loop condition evaluates to true
+             - executes for loop statement
+             - executes update statement 
+3. repeat until loop condition is proven false
+*Note: the initial statement in the for loop is the first statement to execute; it executes only once*
+The statements of for loops can either be simple or compound just like the while loop
