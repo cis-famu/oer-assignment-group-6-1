@@ -18,3 +18,14 @@ this chapter, you'll have a solid understanding of how incorporating repetitions
 programs.
 
 ## While looping (Repetition) Structure
+
+example: while(expression)
+            statement
+
+"While" is one of the reserved words in c++, with the statement being either simple or a compound statement. The expression is a decision maker
+while also being a logical expression usually. The body of the loop is the statement.
+*Note: parentheses are part of syntax*
+The expression is a entry condition, meaning that for the statment to execute the loops condition has to be proven true instead of false. The statement 
+will execute until the condition is proven false. There is another loop called an infinity loop, a loop that continues to execute endlessly. To avoid this
+one should make sure that the loops body has statements that assure each condition. For the while loop the expression will eventually be false.
+These loops also use variables as loop control, typically it is the letter "i".
