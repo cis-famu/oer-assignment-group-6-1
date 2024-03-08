@@ -9,3 +9,12 @@ Upon completion of this chapter, students will be able to:
 7. Demonstrate a switch statement in a program 
 8. Identify how to avoid bugs
 9. Use the assert function to terminate a program 
+
+##Introductions 
+
+In the previous section, we covered how decisions are integrated into programs. In this chapter, we'll shift our focus to how programs 
+handle repetitive tasks. We'll explore loops and iterations, which are essential tools for improving program functionality. By the end of 
+this chapter, you'll have a solid understanding of how incorporating repetitions enhances the strength and adaptability of computer 
+programs.
+
+## While looping (Repetition) Structure
