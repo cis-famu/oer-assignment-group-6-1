@@ -28,9 +28,9 @@ effective use when necessary.
 ## Predefined Functions
 
 Before exploring predefined functions in C++, let's revisit a concept from college algebra. In algebra, a function represents a rule 
-or relationship between input values, known as arguments, and their corresponding output values. For instance, if \( f(x) = 2x + 5 \), 
-then \( f(1) = 7 \), \( f(2) = 9 \), and \( f(3) = 11 \), where 1, 2, and 3 are arguments, and 7, 9, and 11 are the respective output 
-values of the function \( f \). 
+or relationship between input values, known as arguments, and their corresponding output values. For instance, if f(x) = 2x + 5, 
+then f(1) = 7, f(2) = 9, and  f(3) = 11, where 1, 2, and 3 are arguments, and 7, 9, and 11 are the respective output 
+values of the function 'f'. 
 
 In C++, the notion of a function, whether predefined or user-defined, mirrors that of algebraic 
 functions. Each function possesses a name and performs computations based on user-supplied values. This section explores various 
@@ -38,12 +38,14 @@ predefined functions.
 
 Predefined mathematical functions such as `pow(x, y)`, `sqrt(x)`, and `floor(x)` are available. 
 
-The `pow(x, y)` function calculates \( x^y \), where \( x \) and \( y \) are parameters. For example, \( \text{pow}(2.0, 3) = 8.0 \) and \( \text{pow}(2.5,
-3) = 15.625 \). As `pow(x, y)` returns values of type double, it is considered a double-type function.
+The `pow(x, y)` function calculates x^y, where x and y are parameters. For example, pow(2.0, 3) = 8.0 and pow(2.5,
+3) = 15.625. As `pow(x, y)` returns values of type double, it is considered a double-type function.
 
-The `sqrt(x)` function computes the non-negative square root of \( x \) for \( x \geq 0.0 \). For instance, \( \text{sqrt}(2.25) = 1.5 \). This function also returns 
-values of type double. The `floor(x)` function determines the largest integer less than or equal to \( x \). For instance, \( \text{floor}
-(48.79) = 48.0 \). Like the previous functions, `floor(x)` returns values of type double. 
+The `sqrt(x)` function computes the non-negative square root of x for x >= 0.0. For instance, sqrt(2.25) = 1.5. This function also returns 
+values of type double. 
+
+The `floor(x)` function determines the largest integer less than or equal to x. For instance, floor(48.79) = 48.0. Like the previous 
+functions, `floor(x)` returns values of type double. 
 
 In C++, predefined functions are organized into separate libraries. For instance, `iostream` contains I/O functions, while `cmath` contains mathematical functions. Table 6-1 in the 
 reference material lists commonly used predefined functions, along with their header file, parameter data types, and return types.
