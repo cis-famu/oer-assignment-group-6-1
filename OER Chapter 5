@@ -1,1 +1,25 @@
+# User Defined Functions 
 
+## Objectives 
+When completed, students will be able to: 
+1. Explain the concepts of predefined and custom-made functions.
+2. Recognize functions that return values, specifying both the input parameters and the output.
+3. Create and apply custom functions that return values within a program.
+4. Recognize and utilize function prototypes.
+5. Incorporate void functions within a program.
+6. Differentiate between value and reference parameters.
+7. Highlight the disparities between local and global identifiers.
+8. Incorporate static variables into programming tasks.
+9. Debug programs employing drivers and stubs.
+10. Investigate the concept of function overloading.
+11. Utilize functions with default parameters effectively.
+
+## Introduction 
+Functions serve as fundamental components, akin to building blocks, enabling the division of complex programs into manageable segments. They offer additional advantages:
+1. By focusing on individual functions, programmers can concentrate solely on specific parts of the program, facilitating construction, debugging, and refinement.
+2. Multiple individuals can collaborate on different functions concurrently, fostering efficient teamwork.
+3. When a function is required in various sections of a program or across different programs, it can be written once and utilized repeatedly, promoting code reusability.
+4. The use of functions significantly enhances program readability by reducing the intricacy of the main function.
+Functions are often referred to as modules, resembling miniature programs that can be combined to form larger programs. This modular approach becomes evident when discussing 
+user-defined functions. Although this aspect is less apparent with predefined functions due to their inaccessible programming code, learning about them first enables their 
+effective use when necessary.
