@@ -52,4 +52,17 @@ reference material lists commonly used predefined functions, along with their he
 
 ## User-Defined Functions 
 
+In C++, user-defined functions are divided into two main types:
+
+Value-returning functions: These functions have a return type and provide a specific data type as output using the return statement, 
+which will be detailed shortly. It's important to note that the function main typically uses a return statement to yield the value 0 in 
+the programs we've encountered thus far.
+
+Void functions: These functions lack a return type and therefore do not utilize a return statement to provide a value.
+
+Initially, we will focus on value-returning functions. Many of the principles discussed concerning value-returning functions also 
+pertain to void functions.
+
+## Value Returning Functions 
+
 
