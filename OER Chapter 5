@@ -108,3 +108,10 @@ Likewise, the function abs could be defined as follows:
 The variable specified in the declaration of the abs function is termed a formal parameter within the context of abs. Therefore, the 
 formal parameter for abs is referred to as "number."
 
+We can now formally define two terms:
+
+1. Formal Parameter: A variable declared in the function's header.
+2. Actual Parameter: A variable or expression specified in a function call.
+
+When dealing with predefined functions, your focus is primarily on the first four attributes. Generally, software companies do not 
+disclose the actual source code, i.e., the function's body.
