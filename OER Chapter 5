@@ -29,7 +29,7 @@ effective use when necessary.
 
 Before exploring predefined functions in C++, let's revisit a concept from college algebra. In algebra, a function represents a rule 
 or relationship between input values, known as arguments, and their corresponding output values. For instance, if f(x) = 2x + 5, 
-then f(1) = 7, f(2) = 9, and  f(3) = 11, where 1, 2, and 3 are arguments, and 7, 9, and 11 are the respective output 
+then f(1) = 5, f(2) = 7, and  f(3) = 9, where 1, 2, and 3 are arguments, and 5, 7, and 9 are the respective output 
 values of the function f. 
 
 In C++, the notion of a function, whether predefined or user-defined, mirrors that of algebraic 
@@ -38,13 +38,13 @@ predefined functions.
 
 Predefined mathematical functions such as pow(x, y), sqrt(x), and floor(x) are available. 
 
-The pow(x, y) function calculates x^y, where x and y are parameters. For example, pow(2.0, 3) = 8.0 and pow(2.5,
-3) = 15.625. As pow(x, y) returns values of type double, it is considered a double-type function.
+The pow(x, y) function calculates x^y, where x and y are parameters. For example, pow(3.0, 3) = 27.0 and pow(3.5,
+3) = 42.875. As pow(x, y) returns values of type double, it is considered a double-type function.
 
-The sqrt(x) function computes the non-negative square root of x for x >= 0.0. For instance, sqrt(2.25) = 1.5. This function also returns 
+The sqrt(x) function computes the non-negative square root of x for x >= 0.0. For instance, sqrt(3.25) = 1.8. This function also returns 
 values of type double. 
 
-The floor(x) function determines the largest integer less than or equal to x. For instance, floor(48.79) = 48.0. Like the previous 
+The floor(x) function determines the largest integer less than or equal to x. For instance, floor(62.89) = 63.0. Like the previous 
 functions, floor(x) returns values of type double. 
 
 In C++, predefined functions are organized into separate libraries. For instance, iostream contains I/O functions, while cmath contains mathematical functions. Table 6-1 in the 
@@ -76,9 +76,9 @@ included in your program via the include statement. Understanding the following 
 
 Given that a value-returning function yields only one value, it's typically employed in one of three ways:
 
-1. Storing the value for subsequent calculations (e.g., x = pow(3.0, 2.5);)
-2. Utilizing the value in calculations (e.g., area = PI * pow(radius, 2.0);)
-3. Displaying the value (e.g., cout << abs(-5) << endl;)
+1. Storing the value for subsequent calculations (e.g., x = pow(4.0, 1.5);)
+2. Utilizing the value in calculations (e.g., area = PI * pow(radius, 3.0);)
+3. Displaying the value (e.g., cout << abs(-3) << endl;)
 
 This indicates that a value-returning function is used within an expression:
 
