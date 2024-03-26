@@ -1,4 +1,4 @@
-# User Defined Functions 
+# User-Defined Functions 
 
 ## Objectives 
 When completed, students will be able to: 
@@ -15,6 +15,7 @@ When completed, students will be able to:
 11. Utilize functions with default parameters effectively.
 
 ## Introduction 
+
 Functions serve as fundamental components, akin to building blocks, enabling the division of complex programs into manageable segments. They offer additional advantages:
 1. By focusing on individual functions, programmers can concentrate solely on specific parts of the program, facilitating construction, debugging, and refinement.
 2. Multiple individuals can collaborate on different functions concurrently, fostering efficient teamwork.
