@@ -104,3 +104,7 @@ Likewise, the function abs could be defined as follows:
                                                       number = -number;
                                                     return number;
                                                   }
+
+The variable specified in the declaration of the abs function is termed a formal parameter within the context of abs. Therefore, the 
+formal parameter for abs is referred to as "number."
+
