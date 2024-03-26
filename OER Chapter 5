@@ -65,4 +65,42 @@ pertain to void functions.
 
 ## Value Returning Functions 
 
+Certain predefined C++ functions, such as pow, abs, islower, and toupper, are instances of value-returning functions. To utilize these 
+functions within your programs, you must be aware of the header file containing their specifications. This header file needs to be 
+included in your program via the include statement. Understanding the following details is crucial:
 
+1. The function's name
+2. Any parameters involved
+3. The data type of each parameter
+4. The data type of the computed value (i.e., the return value), known as the function's type
+
+Given that a value-returning function yields only one value, it's typically employed in one of three ways:
+
+1. Storing the value for subsequent calculations (e.g., x = pow(3.0, 2.5);)
+2. Utilizing the value in calculations (e.g., area = PI * pow(radius, 2.0);)
+3. Displaying the value (e.g., cout << abs(-5) << endl;)
+
+This indicates that a value-returning function is used within an expression:
+
+- In an assignment statement
+- As a parameter during a function call
+- Within an output statement
+
+Before examining the syntax of a user-defined value-returning function, it's essential to understand the associated elements. Apart 
+from the initial four properties, one more aspect is pertinent to both value-returning and void functions:
+
+4. The code necessary to accomplish the task
+
+The first four properties constitute the function's heading (also referred to as the function header), while the fifth property 
+constitutes the function's body. Together, these elements constitute the function's definition. For instance, for the abs function, the 
+heading might look like this: 
+                                                  int abs(int number)
+
+Likewise, the function abs could be defined as follows:
+
+                                                  int abs(int number)
+                                                  {
+                                                    if (number < 0)
+                                                      number = -number;
+                                                    return number;
+                                                  }
