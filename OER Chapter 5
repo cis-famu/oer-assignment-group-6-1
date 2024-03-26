@@ -16,14 +16,19 @@ When completed, students will be able to:
 
 ## Introduction 
 
-Functions serve as fundamental components, akin to building blocks, enabling the division of complex programs into manageable segments. They offer additional advantages:
-1. By focusing on individual functions, programmers can concentrate solely on specific parts of the program, facilitating construction, debugging, and refinement.
+Functions serve as fundamental components, akin to building blocks, enabling the division of complex programs into manageable segments.
+
+They offer additional advantages:
+1. By focusing on individual functions, programmers can concentrate solely on specific parts of the program, facilitating construction, 
+debugging, and refinement.
 2. Multiple individuals can collaborate on different functions concurrently, fostering efficient teamwork.
-3. When a function is required in various sections of a program or across different programs, it can be written once and utilized repeatedly, promoting code reusability.
+3. When a function is required in various sections of a program or across different programs, it can be written once and utilized 
+repeatedly, promoting code reusability.
 4. The use of functions significantly enhances program readability by reducing the intricacy of the main function.
-Functions are often referred to as modules, resembling miniature programs that can be combined to form larger programs. This modular approach becomes evident when discussing 
-user-defined functions. Although this aspect is less apparent with predefined functions due to their inaccessible programming code, learning about them first enables their 
-effective use when necessary.
+
+Functions are often referred to as modules, resembling miniature programs that can be combined to form larger programs. This modular 
+approach becomes evident when discussing user-defined functions. Although this aspect is less apparent with predefined functions due to
+their inaccessible programming code, learning about them first enables their effective use when necessary.
 
 ## Predefined Functions
 
@@ -40,7 +45,6 @@ Predefined mathematical functions such as pow(x, y), sqrt(x), and floor(x) are a
 
 The pow(x, y) function calculates x^y, where x and y are parameters. For example, pow(3.0, 3) = 27.0 and pow(3.5,
 3) = 42.875. As pow(x, y) returns values of type double, it is considered a double-type function.
-
 The sqrt(x) function computes the non-negative square root of x for x >= 0.0. For instance, sqrt(3.25) = 1.8. This function also returns 
 values of type double. 
 
@@ -53,13 +57,10 @@ reference material lists commonly used predefined functions, along with their he
 ## User-Defined Functions 
 
 In C++, user-defined functions are divided into two main types:
-
-Value-returning functions: These functions have a return type and provide a specific data type as output using the return statement, 
+1. Value-returning functions: These functions have a return type and provide a specific data type as output using the return statement, 
 which will be detailed shortly. It's important to note that the function main typically uses a return statement to yield the value 0 in 
 the programs we've encountered thus far.
-
-Void functions: These functions lack a return type and therefore do not utilize a return statement to provide a value.
-
+2. Void functions: These functions lack a return type and therefore do not utilize a return statement to provide a value.
 Initially, we will focus on value-returning functions. Many of the principles discussed concerning value-returning functions also 
 pertain to void functions.
 
@@ -68,27 +69,23 @@ pertain to void functions.
 Certain predefined C++ functions, such as pow, abs, islower, and toupper, are instances of value-returning functions. To utilize these 
 functions within your programs, you must be aware of the header file containing their specifications. This header file needs to be 
 included in your program via the include statement. Understanding the following details is crucial:
-
 1. The function's name
 2. Any parameters involved
 3. The data type of each parameter
 4. The data type of the computed value (i.e., the return value), known as the function's type
 
 Given that a value-returning function yields only one value, it's typically employed in one of three ways:
-
 1. Storing the value for subsequent calculations (e.g., x = pow(4.0, 1.5);)
 2. Utilizing the value in calculations (e.g., area = PI * pow(radius, 3.0);)
 3. Displaying the value (e.g., cout << abs(-3) << endl;)
 
 This indicates that a value-returning function is used within an expression:
-
 - In an assignment statement
 - As a parameter during a function call
 - Within an output statement
 
 Before examining the syntax of a user-defined value-returning function, it's essential to understand the associated elements. Apart 
 from the initial four properties, one more aspect is pertinent to both value-returning and void functions:
-
 4. The code necessary to accomplish the task
 
 The first four properties constitute the function's heading (also referred to as the function header), while the fifth property 
@@ -109,7 +106,6 @@ The variable specified in the declaration of the abs function is termed a formal
 formal parameter for abs is referred to as "number."
 
 We can now formally define two terms:
-
 1. Formal Parameter: A variable declared in the function's header.
 2. Actual Parameter: A variable or expression specified in a function call.
 
