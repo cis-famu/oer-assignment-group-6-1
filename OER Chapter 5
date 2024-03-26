@@ -24,3 +24,7 @@ Functions serve as fundamental components, akin to building blocks, enabling the
 Functions are often referred to as modules, resembling miniature programs that can be combined to form larger programs. This modular approach becomes evident when discussing 
 user-defined functions. Although this aspect is less apparent with predefined functions due to their inaccessible programming code, learning about them first enables their 
 effective use when necessary.
+
+## Predefined Functions
+
+
