@@ -1,0 +1,13 @@
+#Intoduction
+After completing this chapter, students will:
+
+Understand the purpose of arrays and their importance in programming.
+Be able to declare and initialize arrays in their code.
+Demonstrate proficiency in manipulating data within arrays.
+Recognize the limitations and restrictions associated with array processing.
+Learn to pass arrays as parameters to functions, facilitating modular and efficient code.
+Gain proficiency in searching and sorting arrays to efficiently manage data.
+Understand the usage of auto declarations for simpler and cleaner code.
+Master the use of range-based for loops for iterating over arrays.
+Learn to use C-strings for inputting and outputting data, enhancing string manipulation skills.
+Define and work with parallel, two-dimensional, and multidimensional arrays for handling complex data structures.
