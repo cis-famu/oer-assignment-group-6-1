@@ -1,4 +1,4 @@
-#Intoduction
+#Objectives
 After completing this chapter, students will:
 
 Understand the purpose of arrays and their importance in programming.
@@ -11,3 +11,13 @@ Understand the usage of auto declarations for simpler and cleaner code.
 Master the use of range-based for loops for iterating over arrays.
 Learn to use C-strings for inputting and outputting data, enhancing string manipulation skills.
 Define and work with parallel, two-dimensional, and multidimensional arrays for handling complex data structures.
+
+#Introduction
+In previous chapters, you worked with simple data types. In Chapter 2, you learned that C++ data types fall into three categories: 
+simple, structured, and pointers. One of these categories is the structured data type. This chapter and the next few chapters focus
+on structured data types. Recall that a data type is called simple if variables of that type can store only one value at a time. 
+In contrast, in a structured data type, each data item is a collection of other data items. Simple data types are building blocks of 
+structured data types. The first structured data type that we will discuss is an array. In Chapters 9 and 10, we will discuss other structured data types.
+Before formally defining an array, let us consider the following problem. We want to write a C++ program that reads five numbers, 
+finds their sum, and prints the numbers in reverse order.
+
