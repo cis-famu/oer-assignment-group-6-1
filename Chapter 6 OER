@@ -52,6 +52,16 @@ using a loop. For instance, consider the following statements:
 
 The following 'for' loop iterates through each element of the array 'list', beginning with the first element of 'list':
 
-                                                for (i = 0; i < 500; i++) // Line 1
+                                               for (i = 0; i < 500; i++) // Line 1
+                                                   // process list[i]    // Line 2
+
+
+
+
+
+
+
+
+for (i = 0; i < 500; i++) // Line 1
                                                     cin >> list[i]; // Line 2
 
