@@ -31,3 +31,6 @@ The typical syntax used to declare a one-dimensional array is:
 
 where `intExp` specifies the quantity of elements in the array and can be any constant expression that results in a positive integer 
 value.
+
+## Accessing Array Components
+
