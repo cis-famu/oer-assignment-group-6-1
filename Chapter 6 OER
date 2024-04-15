@@ -21,3 +21,4 @@ structured data types. The first structured data type that we will discuss is an
 Before formally defining an array, let us consider the following problem. We want to write a C++ program that reads five numbers, 
 finds their sum, and prints the numbers in reverse order.
 
+## Arrays
