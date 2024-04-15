@@ -25,3 +25,4 @@ finds their sum, and prints the numbers in reverse order.
 A one-dimensional array is a grouping of a set number of elements, all of which are of the same data type and stored in adjacent memory 
 locations. In simpler terms, it's like a list where each element follows the next one in sequence. This section specifically covers 
 one-dimensional arrays, while arrays with two or more dimensions will be covered in later chapters.
+The typical syntax used to declare a one-dimensional array is:
