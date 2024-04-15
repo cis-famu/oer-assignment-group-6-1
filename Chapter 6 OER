@@ -73,13 +73,11 @@ Let's examine the following declaration:
                                                           double num[11];
                                                           int i;
 
-The element 'num[i]' is considered valid if 'i' is one of the following values: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10.
-
-An index of an array, denoted as 'index', is considered within bounds if 'index' falls between 0 and 'ARRAY_SIZE - 1', meaning 
-'0 <= index <= ARRAY_SIZE - 1'. If 'index' is negative or exceeds 'ARRAY_SIZE - 1', it is considered out of bounds.
-Unfortunately, in C++, there is no automatic check to ensure that the index value is within this range ('0'  to 'ARRAY_SIZE - 1'). If 
-the index goes out of bounds and the program attempts to access the specified array element, it accesses the memory location indicated 
-by the index. This situation can lead to unintended modification or access of data in memory, or even attempts to access protected 
-memory that can cause the program to crash abruptly. Consequently, various unexpected behaviors can occur if the index goes out of 
-bounds during program execution. It is entirely the responsibility of the programmer to ensure that the index remains within the valid 
-bounds of the array.
+The element 'num[i]' is considered valid if 'i' is one of the following values: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, or 10. An index of an array,
+denoted as 'index', is considered within bounds if 'index' falls between 0 and 'ARRAY_SIZE - 1', meaning '0 <= index <= ARRAY_SIZE - 1'. 
+If 'index' is negative or exceeds 'ARRAY_SIZE - 1', it is considered out of bounds. Unfortunately, in C++, there is no automatic check to 
+ensure that the index value is within this range ('0'  to 'ARRAY_SIZE - 1'). If the index goes out of bounds and the program attempts to 
+access the specified array element, it accesses the memory location indicated by the index. This situation can lead to unintended 
+modification or access of data in memory or even attempts to access protected memory that can cause the program to crash abruptly. 
+Consequently, various unexpected behaviors can occur if the index exceeds bounds during program execution. It is entirely the 
+responsibility of the programmer to ensure that the index remains within the valid bounds of the array.
