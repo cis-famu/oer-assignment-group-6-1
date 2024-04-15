@@ -33,4 +33,8 @@ where `intExp` specifies the quantity of elements in the array and can be any co
 value.
 
 ## Accessing Array Components
+The typical syntax used to access an array element is:
+
+                                                  arrayName[indexExp]
+
 
