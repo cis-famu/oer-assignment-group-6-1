@@ -38,5 +38,5 @@ The typical syntax used to access an array element is:
                                                   arrayName[indexExp]
 
 The indexExp, referred to as the index, is any expression that evaluates to a nonnegative integer. This index value indicates 
-the position of the component within the array. In C++, the [] operator is known as the array subscripting operator. Additionally, array 
-indexing in C++ begins at 0.
+the position of the component within the array. In C++, the [] operator is known as the array subscripting operator. Additionally, 
+array indexing in C++ begins at 0.
