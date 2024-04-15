@@ -29,7 +29,7 @@ The typical syntax used to declare a one-dimensional array is:
                                               
                                                 dataType arrayName[intExp];
 
-where `intExp` specifies the quantity of elements in the array and can be any constant expression that results in a positive integer 
+where 'intExp' specifies the quantity of elements in the array and can be any constant expression that results in a positive integer 
 value.
 
 ## Accessing Array Components
@@ -49,5 +49,7 @@ using a loop. For instance, consider the following statements:
 
                                         int list[500]; //list is an array with the size 500
                                         int i;
+
+The following 'for' loop iterates through each element of the array 'list', beginning with the first element of 'list':
 
 
