@@ -55,13 +55,9 @@ The following 'for' loop iterates through each element of the array 'list', begi
                                                for (i = 0; i < 500; i++) // Line 1
                                                    // process list[i]    // Line 2
 
+If it's necessary to input data into the array 'list' during processing, the statement on Line 2 would typically be an input statement 
+like 'cin'. For instance, the following code snippet reads 500 numbers from the keyboard and stores them in the array 'list':
 
-
-
-
-
-
-
-for (i = 0; i < 500; i++) // Line 1
-                                                    cin >> list[i]; // Line 2
+                                                for (i = 0; i < 500; i++) // Line 1
+                                                    cin >> list[i];       // Line 2
 
