@@ -47,9 +47,11 @@ the stored data, and identifying the largest or smallest element. Additionally, 
 the sum and average of the array's elements. Each of these tasks necessitates traversing through the array elements, typically achieved 
 using a loop. For instance, consider the following statements:
 
-                                        int list[500]; //list is an array with the size 500
+                                        int list[500]; // List is an array with the size 500
                                         int i;
 
 The following 'for' loop iterates through each element of the array 'list', beginning with the first element of 'list':
 
+                                                for (i = 0; i < 500; i++) // Line 1
+                                                    cin >> list[i]; // Line 2
 
