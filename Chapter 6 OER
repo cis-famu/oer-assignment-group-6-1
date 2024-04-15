@@ -70,3 +70,6 @@ statement. For instance, the following code snippet outputs the numbers stored i
 
 ## Array Index Out Of Bounds
 Let's examine the following declaration:
+                                                          double num[11];
+                                                          int i;
+
