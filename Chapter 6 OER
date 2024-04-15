@@ -61,3 +61,10 @@ like 'cin'. For instance, the following code snippet reads 500 numbers from the 
                                                 for (i = 0; i < 500; i++) // Line 1
                                                     cin >> list[i];       // Line 2
 
+Likewise, if outputting the data from the array 'list' is required during processing, the statement on Line 2 would be an output 
+statement. For instance, the following code snippet outputs the numbers stored in the array 'list'.
+
+                                                for (i = 0; i < 500; i++) // Line 1
+                                                    cout << list[i] << " "; // Line 2
+                                                cout << end1;
+
