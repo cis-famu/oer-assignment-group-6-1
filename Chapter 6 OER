@@ -68,3 +68,4 @@ statement. For instance, the following code snippet outputs the numbers stored i
                                                     cout << list[i] << " "; // Line 2
                                                 cout << end1;
 
+## Array Index Out Of Bounds
